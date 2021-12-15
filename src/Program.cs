@@ -33,7 +33,7 @@ app.MapRazorPages();
 app.UseStatusCodePages("text/html", "<!doctype html><h1>&#128163;HTTP error! Status code: {0}</h1>");
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
+    //app.UseExceptionHandler("/Error");
 }
 
 // API routes for monitoring data and weather 
